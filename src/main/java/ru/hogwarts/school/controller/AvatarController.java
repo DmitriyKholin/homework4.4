@@ -17,6 +17,8 @@ import java.util.Collection;
 @RequestMapping("/avatars")
 public class AvatarController {
 
+
+
     private final AvatarService avatarService;
     private final StudentRepository studentRepository;
 

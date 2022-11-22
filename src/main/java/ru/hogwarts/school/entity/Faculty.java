@@ -7,6 +7,7 @@ import java.util.Collection;
 @Table(name = "faculties")
 public class Faculty {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

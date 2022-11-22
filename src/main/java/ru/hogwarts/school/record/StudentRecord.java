@@ -7,6 +7,7 @@ import javax.validation.constraints.NotBlank;
 public class StudentRecord {
     private long id;
 
+
     @NotBlank(message = "Имя студента должно быть заполнено")
     private String name;
 

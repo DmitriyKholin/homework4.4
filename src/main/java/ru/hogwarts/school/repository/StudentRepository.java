@@ -7,6 +7,7 @@ import ru.hogwarts.school.entity.Student;
 
 import java.util.Collection;
 
+
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
