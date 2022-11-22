@@ -4,6 +4,7 @@ public class AvatarRecord {
 
     private Long id;
     private String mediaType;
+
     private String url;
 
     public AvatarRecord() {

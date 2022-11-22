@@ -11,6 +11,7 @@ import ru.hogwarts.school.exception.StudentNotFoundException;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+
     @ExceptionHandler(StudentNotFoundException.class)
     public ResponseEntity<String> handleStudentNotFoundException(StudentNotFoundException e) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Студент с таким ID " + e.getId() + " не найден!!!");

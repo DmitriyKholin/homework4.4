@@ -5,6 +5,7 @@ import javax.validation.constraints.NotBlank;
 public class FacultyRecord {
     private long id;
 
+
     @NotBlank(message = "Название факультета должно быть заполнено")
     private String name;
 

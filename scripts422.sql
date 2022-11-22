@@ -6,6 +6,7 @@ create table car
     price numeric(9, 2) not null
 );
 
+
 create table human
 (
     id             serial primary key,
